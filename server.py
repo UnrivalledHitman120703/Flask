@@ -29,7 +29,3 @@ def about():
 @app.route("/blog")
 def hello_bloggers():
     return "<h1><center>Hello Bloggers!!</center></h1"
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
