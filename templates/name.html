@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='bolt.ico' )}}" type="image/x-icon">
+</head>
+
+
+
+<body>
+
+    <h1>{{post_id}} Hello !! My name is {{name}},<br> I am a ML intern at IVY !!</h1>
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+</body>
+
+</html>
